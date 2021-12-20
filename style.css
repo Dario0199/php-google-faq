@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Monserrat', sans-serif;
+}
+
+/* header */
+.top{
+    display: flex;
+}
+
+.logo{
+    width: 100px;
+    margin: 5px;
+    object-fit: contain;
+}
+
+.top span{
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.bottom ul{
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid black;
+}
+
+li{
+    margin: 20px;
+}
+
+ul a{
+   text-decoration: none; 
+   color: black;
+   font-weight: 600;
+   padding-bottom: 17px;
+}
+
+ul li:last-child a{
+    color: blue;
+    border-bottom: 4px solid blue;
+}
