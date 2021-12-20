@@ -88,6 +88,31 @@
         <?php endforeach ?>
         </div>  
     </main>
+    <footer>
+        <div class="container">
+            <div class="left">
+                <ul>
+                    <li>
+                        <a href="">Google</a>
+                    </li>
+                    <li>
+                        <a href="">Tutto su Google</a>
+                    </li>
+                    <li>
+                        <a href="">Privacy</a>
+                    </li>
+                    <li>
+                        <a href="">Termini</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <select name="" id="">
+                    <option value="">Italiano</option>
+                </select>
+            </div>
+        </div>
+    </footer>
     
 </body>
 </html>
